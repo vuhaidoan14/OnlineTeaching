@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_OnlineTeaching", "Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_OnlineTeaching", "Client_OnlineTeaching\Client_OnlineTeaching.csproj", "{C15B6F0D-E669-4DB2-9005-52328AE23C59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectSQLServer", "ConnectSQLServer\ConnectSQLServer.csproj", "{12A5D21E-6211-4E9F-8008-E7EF59166A64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C15B6F0D-E669-4DB2-9005-52328AE23C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C15B6F0D-E669-4DB2-9005-52328AE23C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C15B6F0D-E669-4DB2-9005-52328AE23C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A5D21E-6211-4E9F-8008-E7EF59166A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A5D21E-6211-4E9F-8008-E7EF59166A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A5D21E-6211-4E9F-8008-E7EF59166A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A5D21E-6211-4E9F-8008-E7EF59166A64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

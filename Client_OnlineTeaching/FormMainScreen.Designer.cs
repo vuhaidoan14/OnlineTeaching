@@ -49,11 +49,28 @@
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.txtIpAddress = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.time = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.userame = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
+            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.Audio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -62,7 +79,7 @@
             this.settingToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(595, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1030, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -81,7 +98,7 @@
             this.groupBox1.Controls.Add(this.btnCall);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(23, 41);
+            this.groupBox1.Location = new System.Drawing.Point(222, 38);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(547, 120);
             this.groupBox1.TabIndex = 1;
@@ -155,7 +172,7 @@
             this.Audio.Controls.Add(this.btnSoundAudio);
             this.Audio.Controls.Add(this.trackBar2);
             this.Audio.Controls.Add(this.trackBar1);
-            this.Audio.Location = new System.Drawing.Point(23, 167);
+            this.Audio.Location = new System.Drawing.Point(222, 164);
             this.Audio.Name = "Audio";
             this.Audio.Size = new System.Drawing.Size(546, 74);
             this.Audio.TabIndex = 2;
@@ -198,7 +215,7 @@
             // 
             // rtbShowText
             // 
-            this.rtbShowText.Location = new System.Drawing.Point(24, 248);
+            this.rtbShowText.Location = new System.Drawing.Point(223, 245);
             this.rtbShowText.Name = "rtbShowText";
             this.rtbShowText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.rtbShowText.Size = new System.Drawing.Size(544, 149);
@@ -207,7 +224,7 @@
             // 
             // rtbEnterText
             // 
-            this.rtbEnterText.Location = new System.Drawing.Point(24, 407);
+            this.rtbEnterText.Location = new System.Drawing.Point(223, 404);
             this.rtbEnterText.Name = "rtbEnterText";
             this.rtbEnterText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.rtbEnterText.Size = new System.Drawing.Size(543, 67);
@@ -218,34 +235,144 @@
             // 
             this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
             this.simpleButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton1.Location = new System.Drawing.Point(12, 486);
+            this.simpleButton1.Location = new System.Drawing.Point(222, 477);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(66, 28);
+            this.simpleButton1.Size = new System.Drawing.Size(60, 28);
             this.simpleButton1.TabIndex = 5;
             // 
             // simpleButton2
             // 
             this.simpleButton2.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.Image")));
             this.simpleButton2.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton2.Location = new System.Drawing.Point(517, 486);
+            this.simpleButton2.Location = new System.Drawing.Point(707, 477);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(66, 28);
+            this.simpleButton2.Size = new System.Drawing.Size(62, 28);
             this.simpleButton2.TabIndex = 6;
             // 
             // txtIpAddress
             // 
             this.txtIpAddress.Enabled = false;
-            this.txtIpAddress.Location = new System.Drawing.Point(84, 486);
+            this.txtIpAddress.Location = new System.Drawing.Point(292, 483);
             this.txtIpAddress.Name = "txtIpAddress";
-            this.txtIpAddress.Size = new System.Drawing.Size(427, 20);
+            this.txtIpAddress.Size = new System.Drawing.Size(409, 20);
             this.txtIpAddress.TabIndex = 7;
             this.txtIpAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(793, 38);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(225, 473);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Video";
+            // 
+            // gridControl1
+            // 
+            this.gridControl1.Location = new System.Drawing.Point(12, 38);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(203, 256);
+            this.gridControl1.TabIndex = 9;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.time,
+            this.userame});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            // 
+            // time
+            // 
+            this.time.Caption = "Time";
+            this.time.Name = "time";
+            this.time.Visible = true;
+            this.time.VisibleIndex = 1;
+            // 
+            // userame
+            // 
+            this.userame.Caption = "Username";
+            this.userame.Name = "userame";
+            this.userame.Visible = true;
+            this.userame.VisibleIndex = 0;
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Location = new System.Drawing.Point(12, 300);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(39, 38);
+            this.simpleButton3.TabIndex = 0;
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.Image")));
+            this.simpleButton4.Location = new System.Drawing.Point(67, 300);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(39, 38);
+            this.simpleButton4.TabIndex = 10;
+            // 
+            // simpleButton5
+            // 
+            this.simpleButton5.Location = new System.Drawing.Point(122, 300);
+            this.simpleButton5.Name = "simpleButton5";
+            this.simpleButton5.Size = new System.Drawing.Size(39, 38);
+            this.simpleButton5.TabIndex = 11;
+            // 
+            // simpleButton6
+            // 
+            this.simpleButton6.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton6.Image")));
+            this.simpleButton6.Location = new System.Drawing.Point(176, 300);
+            this.simpleButton6.Name = "simpleButton6";
+            this.simpleButton6.Size = new System.Drawing.Size(39, 38);
+            this.simpleButton6.TabIndex = 12;
+            // 
+            // gridControl2
+            // 
+            this.gridControl2.Location = new System.Drawing.Point(14, 348);
+            this.gridControl2.MainView = this.gridView2;
+            this.gridControl2.Name = "gridControl2";
+            this.gridControl2.Size = new System.Drawing.Size(203, 154);
+            this.gridControl2.TabIndex = 13;
+            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2});
+            // 
+            // gridView2
+            // 
+            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn1,
+            this.gridColumn2});
+            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.Name = "gridView2";
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.Caption = "Username";
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 0;
+            // 
+            // gridColumn2
+            // 
+            this.gridColumn2.Caption = "Time";
+            this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.Visible = true;
+            this.gridColumn2.VisibleIndex = 1;
             // 
             // FrmMainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(595, 526);
+            this.ClientSize = new System.Drawing.Size(1030, 526);
+            this.Controls.Add(this.gridControl2);
+            this.Controls.Add(this.simpleButton6);
+            this.Controls.Add(this.simpleButton5);
+            this.Controls.Add(this.simpleButton4);
+            this.Controls.Add(this.simpleButton3);
+            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.txtIpAddress);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.simpleButton1);
@@ -267,6 +394,10 @@
             this.Audio.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,5 +425,18 @@
         private System.Windows.Forms.TrackBar trackBar2;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.TextBox txtIpAddress;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn time;
+        private DevExpress.XtraGrid.Columns.GridColumn userame;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.SimpleButton simpleButton6;
+        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
     }
 }
