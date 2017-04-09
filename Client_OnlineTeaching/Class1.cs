@@ -8,5 +8,6 @@ namespace Client_OnlineTeaching
 {
     class Class1
     {
+        int condition;
     }
 }
